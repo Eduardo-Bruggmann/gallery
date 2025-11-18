@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link href="output.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#f1f1f1] font-mulish flex flex-col min-h-screen">
+    <header class="bg-white shadow-md w-full px-6">
+      <div
+        class="max-w-[1400px] mx-auto flex items-center justify-between p-4 gap-4"
+      >
+        <nav class="flex items-center gap-10">
+          <a href="#">
+            <img src="/imgs/camera.png" alt="Ícone de uma câmera" class="w-7" />
+          </a>
+
+          <a
+            href="#"
+            class="text-[#8D8D99] font-semibold hidden sm:block hover:underline"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="text-black font-semibold hidden sm:block hover:underline"
+            >Galeria</a
+          >
+        </nav>
+
+        <input
+          type="text"
+          placeholder="Pesquise por imagens e coleções"
+          class="bg-[#f1f1f1] rounded-md p-2 w-full max-w-xl focus:outline-none"
+        />
+
+        <a href="#">
+          <img
+            src="/imgs/profile-picture.png"
+            alt="Foto de perfil"
+            class="w-10 rounded-full"
+          />
+        </a>
+      </div>
+    </header>
+
+    <main class="flex-1 w-full">
+      <div class="max-w-[1400px] mx-auto px-10">
+        <h2 class="text-2xl font-semibold mt-10 mb-6">Galeria</h2>
+
+        <section
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-10"
+        >
+          <div class="bg-white shadow-md rounded cursor-pointer">
+            <img
+              src="/imgs/image1.png"
+              alt="Workspace elétrica"
+              class="w-full h-[220px] object-cover rounded-t"
+            />
+            <div class="p-6">
+              <p class="text-lg font-semibold mb-1">Workspace elétrica</p>
+              <span
+                class="bg-[#F5F5F5] text-xs text-gray-700 rounded py-1 px-2 inline-block"
+                >TAG</span
+              >
+            </div>
+          </div>
+
+          <div class="bg-white shadow-md rounded cursor-pointer">
+            <img
+              src="/imgs/image2.jpg"
+              alt="Dark and Red"
+              class="w-full h-[220px] object-cover rounded-t"
+            />
+            <div class="p-6">
+              <p class="text-lg font-semibold mb-1">Dark and Red</p>
+              <span
+                class="bg-[#F5F5F5] text-xs text-gray-700 rounded py-1 px-2 inline-block"
+                >TAG</span
+              >
+            </div>
+          </div>
+
+          <div class="bg-white shadow-md rounded cursor-pointer">
+            <img
+              src="/imgs/image3.jpg"
+              alt="Organização e grids"
+              class="w-full h-[220px] object-cover rounded-t"
+            />
+            <div class="p-6">
+              <p class="text-lg font-semibold mb-1">Organização e grids</p>
+              <span
+                class="bg-[#F5F5F5] text-xs text-gray-700 rounded py-1 px-2 inline-block"
+                >TAG</span
+              >
+            </div>
+          </div>
+
+          <div class="bg-white shadow-md rounded cursor-pointer">
+            <img
+              src="/imgs/image4.jpg"
+              alt="Colméia"
+              class="w-full h-[220px] object-cover rounded-t"
+            />
+            <div class="p-6">
+              <p class="text-lg font-semibold mb-1">Colméia</p>
+              <span
+                class="bg-[#F5F5F5] text-xs text-gray-700 rounded py-1 px-2 inline-block"
+                >TAG</span
+              >
+            </div>
+          </div>
+
+          <div class="bg-white shadow-md rounded cursor-pointer">
+            <img
+              src="/imgs/image5.jpg"
+              alt="Setup de escritor"
+              class="w-full h-[220px] object-cover rounded-t"
+            />
+            <div class="p-6">
+              <p class="text-lg font-semibold mb-1">Setup de escritor</p>
+              <span
+                class="bg-[#F5F5F5] text-xs text-gray-700 rounded py-1 px-2 inline-block"
+                >TAG</span
+              >
+            </div>
+          </div>
+
+          <div class="bg-white shadow-md rounded cursor-pointer">
+            <img
+              src="/imgs/image6.jpg"
+              alt="Ergonomia e cores"
+              class="w-full h-[220px] object-cover rounded-t"
+            />
+            <div class="p-6">
+              <p class="text-lg font-semibold mb-1">Ergonomia e cores</p>
+              <span
+                class="bg-[#F5F5F5] text-xs text-gray-700 rounded py-1 px-2 inline-block"
+                >TAG</span
+              >
+            </div>
+          </div>
+
+          <div class="bg-white shadow-md rounded cursor-pointer">
+            <img
+              src="/imgs/image7.jpg"
+              alt="Show de Luzes"
+              class="w-full h-[220px] object-cover rounded-t"
+            />
+            <div class="p-6">
+              <p class="text-lg font-semibold mb-1">Show de Luzes</p>
+              <span
+                class="bg-[#F5F5F5] text-xs text-gray-700 rounded py-1 px-2 inline-block"
+                >TAG</span
+              >
+            </div>
+          </div>
+
+          <div class="bg-white shadow-md rounded cursor-pointer">
+            <img
+              src="/imgs/image8.jpg"
+              alt="Deep purple"
+              class="w-full h-[220px] object-cover rounded-t"
+            />
+            <div class="p-6">
+              <p class="text-lg font-semibold mb-1">Deep purple</p>
+              <span
+                class="bg-[#F5F5F5] text-xs text-gray-700 rounded py-1 px-2 inline-block"
+                >TAG</span
+              >
+            </div>
+          </div>
+
+          <div class="bg-white shadow-md rounded cursor-pointer">
+            <img
+              src="/imgs/image9.jpg"
+              alt="Multi-Screen"
+              class="w-full h-[220px] object-cover rounded-t"
+            />
+            <div class="p-6">
+              <p class="text-lg font-semibold mb-1">Multi-Screen</p>
+              <span
+                class="bg-[#F5F5F5] text-xs text-gray-700 rounded py-1 px-2 inline-block"
+                >TAG</span
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="bg-white shadow-md font-semibold p-4 text-center mt-10">
+      © 2025 - Web Gallery
+    </footer>
+  </body>
+</html>
